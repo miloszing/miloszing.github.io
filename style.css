@@ -94,16 +94,16 @@ body {
   }
   .sidebar {
     width: 100%;
-    padding: 1.5rem; /* zwiększ padding dla większej wysokości */
-    font-size: 1.3em; /* zwiększ rozmiar czcionki */
+    padding: 1.1rem; /* zwiększ padding dla większej wysokości */
+    font-size: 1.1em; /* zwiększ rozmiar czcionki */
     min-height: 80px; /* opcjonalnie: minimalna wysokość paska */
   }
   .sidebar h2 {
-    font-size: 1.5em; /* większy nagłówek */
+    font-size: 1.3em; /* większy nagłówek */
   }
   .sidebar li {
-    font-size: 1.3em; /* większy rozmiar czcionki dla linków */
-    padding: 0.7rem 0; /* większa wysokość elementów */
+    font-size: 1.1em; /* większy rozmiar czcionki dla linków */
+    padding: 0.5rem 0; /* większa wysokość elementów */
   }
   .content {
     max-width: 100%;
@@ -120,6 +120,9 @@ body {
   #bookList {
     max-width: 100%;
     align-self: center; /* wyśrodkowanie */
+  }
+  .book {
+    margin-left: 10px; /* LEKKI MARGIN po lewej stronie */
   }
   .book h3 {
     font-size: 1.2em;
