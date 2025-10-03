@@ -6,7 +6,7 @@ async function loadBooks() {
   books = await res.json();
   books.forEach(book => book.tags.forEach(tag => allTags.add(tag)));
   renderTags();
-  renderBooks(books);
+  renderBooks(books); // domyślnie pokaż wszystkie
 }
 
 function renderTags() {
@@ -23,7 +23,7 @@ function renderTags() {
 function renderBooks(list) {
   const bookList = document.getElementById('bookList');
   bookList.innerHTML = '';
-  list.forEach(book => {
+  list.forEach((book) => {
     const div = document.createElement('div');
     div.className = 'book';
     div.innerHTML = `
@@ -50,6 +50,11 @@ function filterByTag(tag) {
   renderBooks(filtered);
 }
 
+function showRecent() {
+  const sorted = [...books].sort((a, b) => new Date(b.read_date) - new Date(a.read_date));
+  renderBooks(sorted);
+}
+
 document.getElementById('search').addEventListener('input', (e) => {
   const q = e.target.value.toLowerCase();
   const filtered = books.filter(book =>
@@ -57,6 +62,11 @@ document.getElementById('search').addEventListener('input', (e) => {
     book.author.toLowerCase().includes(q)
   );
   renderBooks(filtered);
+});
+
+// Obsługa "Ostatnio przeczytane"
+document.getElementById('recentLink').addEventListener('click', () => {
+  showRecent();
 });
 
 loadBooks();
