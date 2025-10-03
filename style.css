@@ -72,21 +72,19 @@ body {
 }
 
 .details {
-  display: none;
+  max-height: 0; /* Początkowa wysokość 0 */
+  overflow: hidden; /* Ukryj zawartość, która wychodzi poza max-height */
   margin-top: 0.5rem;
   font-size: 0.9em;
   background: #f9f9f9;
-  padding: 0.5rem;
+  padding: 0 0.5rem; /* Padding w poziomie, brak w pionie */
   border-left: 3px solid #0077cc;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease, padding 0.3s ease;
+  transition: max-height 0.3s ease, padding 0.3s ease; /* Animacja */
 }
 
 .details.open {
-  display: block;
-  max-height: 500px; /* maksymalna wysokość dla rozwinięcia */
-  padding: 0.5rem;
+  max-height: 500px; /* Maksymalna wysokość dla rozwinięcia */
+  padding: 0.5rem; /* Przywrócenie paddingu w pionie */
 }
 
 #bookList {
