@@ -4,7 +4,7 @@
     "author": "Aleksandra Muraszka",
     "year": 2023,
     "seria": "Swallow",
-    "tags": ["literatura młodzieżowa", "obyczajowa", "romans"],
+    "tags": ["młodzieżowa", "obyczajowa", "romans"],
     "read_date": "2024-03-27",
     "characters": ["Haelyn", "Rion", "przyjaciółka Haelyn"],
     "description": "Haelyn i Rion spotykają się przypadkowo; oboje noszą ciężkie traumy z przeszłości i uczą się razem odnajdywać nadzieję i wsparcie, co uruchamia serię emocjonalnych przemian i konfrontacji z lękami.",
@@ -118,5 +118,89 @@
     "description": "Opowieść o zaginionym noworodku i dziewczynce przygarniętej przez zwykłą rodzinę; w świecie, gdzie magia jest częścią codzienności, bohaterowie stają wobec prób, spisków i zagrożeń ze strony złych czarodziejów.",
     "notes": "tożsamość i ochrona niewinnych",
     "image": "https://s.lubimyczytac.pl/upload/books/4000/4441/352x500.jpg"
+  },
+  {
+    "title": "Rok 1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "seria": null,
+    "tags": ["antyutopia", "dystopia", "polityczna", "klasyka"],
+    "read_date": "2024-03-27",
+    "characters": ["Winston Smith", "Julia", "O'Brien", "Big Brother"],
+    "description": "Powieść ukazująca totalitarny reżim Oceanii: wszechwładną Partię, inwigilację przez teleekrany, manipulację prawdą przy pomocy Ministerstwa Prawdy i języka nowomowy; losy Winstona Smitha prowadzą od buntu i miłości do złamania i uległości wobec władzy.",
+    "notes": "analiza totalitaryzmu; motywy: nowomowa, dwójmyślenie, inwigilacja, przemoc psychiczna.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81R7kz3YbTL.jpg"
+  },
+  {
+    "title": "Papierowy mag",
+    "author": "Charlie N. Holmberg",
+    "year": 2014,
+    "seria": "The Paper Magician",
+    "tags": ["fantasy", "steampunk", "young adult", "magia"],
+    "read_date": "2024-04-09",
+    "characters": ["Ceony Twill", "Emery Thane", "Lira", "papierowy pies"],
+    "description": "Młoda adeptka magii zostaje skierowana na praktykę do papierowego maga; poznaje specyfikę magii papieru, mierzy się z zakazaną magią i wyrusza na niebezpieczną wyprawę, by uratować mentora i odkryć tajemnice serca i pamięci.",
+    "notes": "baśniowy ton z wątkami romantycznymi i motywem specjalistycznej magii.",
+    "image": "https://s.lubimyczytac.pl/upload/books/2000/4922573/352x500.jpg"
+  },
+  {
+    "title": "Zarzewie buntu",
+    "author": "Brandon Mull",
+    "year": 2012,
+    "seria": "Beyonders",
+    "tags": ["fantasy", "przygodowa", "młodzieżowa", "epicka"],
+    "read_date": "2024-04-09",
+    "characters": ["Jason Walker", "Rachel", "Galloran", "Maldor"],
+    "description": "Kontynuacja przygód w świecie Lyrian: bohaterowie formują sojusze przeciw tyranii cesarza Maldora; rośnie skala konfliktu, pojawiają nowe zagrożenia i testy lojalności.",
+    "notes": "drugi tom rozbudowuje świat i postacie; tematy: lojalność, przeznaczenie, opór wobec tyranii.",
+    "image": "https://s.lubimyczytac.pl/upload/books/1000/172448/352x500.jpg"
+  },
+  {
+    "title": "Gregor i niedokończona przepowiednia",
+    "author": "Suzanne Collins",
+    "year": 2003,
+    "seria": "Kroniki Podziemia",
+    "tags": ["fantasy", "przygodowa", "dla młodszych czytelników", "portal fantasy"],
+    "read_date": "2024-04-30",
+    "characters": ["Gregor", "Botka", "Luxa", "Ares"],
+    "description": "Gregor i jego siostra trafiają do Podziemia, świata mówiących zwierząt i starożytnych przepowiedni; Gregor staje się centralną postacią w konflikcie zagrażającym podziemnym królestwom.",
+    "notes": "pierwszy tom cyklu skierowanego do młodszych czytelników; równowaga między przygodą a poważniejszymi tematami.",
+    "image": "https://s.lubimyczytac.pl/upload/books/2000/249148/352x500.jpg"
+  },
+  {
+    "title": "Tajemnica starego mistrza",
+    "author": "Joseph Delaney",
+    "year": 2007,
+    "seria": "The Wardstone Chronicles",
+    "tags": ["fantasy", "mroczna", "młodzieżowa", "horror dziecięcy"],
+    "read_date": "2024-04-30",
+    "characters": ["Thomas Ward", "John Gregory", "Alice", "Meg Skelton"],
+    "description": "Tom Ward jako uczeń stracharza mierzy się z pradawnymi siłami zła i sekretami związanymi ze starym mistrzem; atmosfera jest mroczna, a wybory moralne trudne.",
+    "notes": "rozwój mroczniejszych wątków cyklu; motyw dojrzewania i odpowiedzialności za walkę z nadprzyrodzonym.",
+    "image": "https://s.lubimyczytac.pl/upload/books/2000/3665198/352x500.jpg"
+  },
+  {
+    "title": "Misja w lunaparku",
+    "author": "Brandon Mull",
+    "year": 2007,
+    "seria": "The Candy Shop War",
+    "tags": ["fantasy", "przygodowa", "dla dzieci", "magia"],
+    "read_date": "2024-04-30",
+    "characters": ["Nate", "Summer", "Trevor", "Mrs. White"],
+    "description": "Młodzi bohaterowie stają do walki z magią kontrolującą sny i emocje mieszkańców; lunapark i magiczne słodycze stają się sceną ostatecznej konfrontacji z manipulacją.",
+    "notes": "seria dla młodszych czytelników; motyw odpowiedzialności za użycie mocy i konsekwencje manipulacji.",
+    "image": "https://s.lubimyczytac.pl/upload/books/2000/5085312/352x500.jpg"
+  },
+  {
+    "title": "W pogoni za proroctwem",
+    "author": "Brandon Mull",
+    "year": 2013,
+    "seria": "Beyonders",
+    "tags": ["fantasy", "epicka", "młodzieżowa", "przygodowa"],
+    "read_date": "2024-04-30",
+    "characters": ["Jason Walker", "Rachel", "Galloran", "Dorian"],
+    "description": "Finał trylogii: bohaterowie wykonują ostatnie zadania wynikające z proroctwa, prowadzące do ostatecznego starcia z cesarzem Maldorem i rozstrzygnięcia losów Lyrian.",
+    "notes": "kulminacja wątków serii; motywy poświęcenia, przeznaczenia i konsekwencji proroctw.",
+    "image": "https://s.lubimyczytac.pl/upload/books/2000/189005/352x500.jpg"
   }
 ]
