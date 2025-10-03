@@ -96,6 +96,12 @@ body {
     padding: 0.5rem;
     font-size: 1.1em;
   }
+  .sidebar li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    color: #0077cc;
+    font-size: 1.2em;
+  }
   .content {
     max-width: 100%;
     padding: 0.5rem;
