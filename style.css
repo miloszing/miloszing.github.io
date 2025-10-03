@@ -45,12 +45,14 @@ body {
 }
 
 #search {
+  height: 2rem;
   width: 100%;
   max-width: 500px;
   box-sizing: border-box;
   display: block;
   margin-bottom: 1rem;
   align-self: center; /* wyśrodkowanie */
+  padding-left: 0.5rem;
 }
 
 .book {
@@ -76,6 +78,15 @@ body {
   background: #f9f9f9;
   padding: 0.5rem;
   border-left: 3px solid #0077cc;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.details.open {
+  display: block;
+  max-height: 500px; /* maksymalna wysokość dla rozwinięcia */
+  padding: 0.5rem;
 }
 
 #bookList {

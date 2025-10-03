@@ -39,7 +39,7 @@ function renderBooks(list) {
     `;
     div.addEventListener('click', () => {
       const details = div.querySelector('.details');
-      details.style.display = details.style.display === 'block' ? 'none' : 'block';
+      details.classList.toggle('open');
     });
     bookList.appendChild(div);
   });
