@@ -27,12 +27,18 @@ function renderBooks(list) {
     const div = document.createElement('div');
     div.className = 'book';
     div.innerHTML = `
-      <h3>${book.title} (${book.year})</h3>
-      <p><strong>${book.author}</strong></p>
-      <p class="tags">Tagi: ${book.tags.join(', ')}</p>
+      <div class="book-header">
+        <img src="${book.image}" alt="Okładka książki ${book.title}" class="book-cover">
+        <div>
+          <h3>${book.title} (${book.year})</h3>
+          <p><strong>${book.author}</strong></p>
+          <p class="tags">Tagi: ${book.tags.join(', ')}</p>
+        </div>
+      </div>
       <div class="details">
+        <p><strong>Seria:</strong> ${book.seria || 'Brak'}</p>
         <p><strong>Przeczytane:</strong> ${book.read_date}</p>
-        <p><strong>Bohaterowie:</strong> ${book.characters.join(', ')}</p>
+        <p><strong>Bohaterowie:</strong> ${book.characters.length > 0 ? book.characters.join(', ') : 'Brak'}</p>
         <p><strong>Opis:</strong> ${book.description}</p>
         <p><strong>Notatki:</strong> ${book.notes}</p>
       </div>

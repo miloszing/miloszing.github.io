@@ -71,6 +71,23 @@ body {
   font-size: 0.9em;
 }
 
+/* Styl dla nagłówka książki */
+.book-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-cover {
+  width: 80px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Styl dla szczegółów książki */
 .details {
   max-height: 0; /* Początkowa wysokość 0 */
   overflow: hidden; /* Ukryj zawartość, która wychodzi poza max-height */
@@ -83,7 +100,7 @@ body {
 }
 
 .details.open {
-  max-height: 500px; /* Maksymalna wysokość dla rozwinięcia */
+  max-height: 1000px; /* Wystarczająco duża wartość, aby pomieścić zawartość */
   padding: 0.5rem; /* Przywrócenie paddingu w pionie */
 }
 
