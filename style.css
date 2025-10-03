@@ -94,40 +94,37 @@ body {
   }
   .sidebar {
     width: 100%;
-    padding: 1.5rem;
-    font-size: 1.1em; /* MNIEJSZA czcionka w nawigacji */
-    min-height: 80px;
+    padding: 1.5rem; /* zwiększ padding dla większej wysokości */
+    font-size: 1.3em; /* zwiększ rozmiar czcionki */
+    min-height: 80px; /* opcjonalnie: minimalna wysokość paska */
   }
   .sidebar h2 {
-    font-size: 1.3em; /* MNIEJSZY nagłówek */
+    font-size: 1.5em; /* większy nagłówek */
   }
   .sidebar li {
-    font-size: 1.1em; /* MNIEJSZY rozmiar czcionki dla linków */
-    padding: 0.7rem 0;
+    font-size: 1.3em; /* większy rozmiar czcionki dla linków */
+    padding: 0.7rem 0; /* większa wysokość elementów */
   }
   .content {
     max-width: 100%;
     padding: 0.5rem;
     font-size: 1.1em;
-    align-items: center;
+    align-items: center; /* wyśrodkowanie na mobilnych */
   }
   #search {
     font-size: 1.1em;
     padding: 0.7rem;
     max-width: 100%;
-    align-self: center;
+    align-self: center; /* wyśrodkowanie */
   }
   #bookList {
     max-width: 100%;
-    align-self: center;
-  }
-  .book {
-    margin-left: 10px; /* LEKKI MARGIN po lewej stronie */
+    align-self: center; /* wyśrodkowanie */
   }
   .book h3 {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
   .tags, .details, .book p {
-    font-size: 1em;
+    font-size: 1.05em;
   }
 }
