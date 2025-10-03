@@ -37,7 +37,7 @@ function renderBooks(list) {
         <p><strong>Notatki:</strong> ${book.notes}</p>
       </div>
     `;
-    div.querySelector('h3').addEventListener('click', () => {
+    div.addEventListener('click', () => {
       const details = div.querySelector('.details');
       details.style.display = details.style.display === 'block' ? 'none' : 'block';
     });
