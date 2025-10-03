@@ -93,14 +93,16 @@ body {
   }
   .sidebar {
     width: 100%;
-    padding: 0.5rem;
-    font-size: 1.1em;
+    padding: 1.5rem; /* zwiększ padding dla większej wysokości */
+    font-size: 1.3em; /* zwiększ rozmiar czcionki */
+    min-height: 80px; /* opcjonalnie: minimalna wysokość paska */
+  }
+  .sidebar h2 {
+    font-size: 1.5em; /* większy nagłówek */
   }
   .sidebar li {
-    margin-bottom: 0.5rem;
-    cursor: pointer;
-    color: #0077cc;
-    font-size: 1.2em;
+    font-size: 1.3em; /* większy rozmiar czcionki dla linków */
+    padding: 0.7rem 0; /* większa wysokość elementów */
   }
   .content {
     max-width: 100%;
