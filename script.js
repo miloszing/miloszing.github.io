@@ -37,10 +37,25 @@ function renderBooks(list) {
         <p><strong>Notatki:</strong> ${book.notes}</p>
       </div>
     `;
-    div.querySelector('h3').addEventListener('click', () => {
+    // Zmieniamy klik na cały div.book
+    div.addEventListener('click', (e) => {
+      // Ignoruj kliknięcia w linki/tagi wewnątrz .details
+      if (e.target.closest('.details')) return;
       const details = div.querySelector('.details');
-      details.style.display = details.style.display === 'block' ? 'none' : 'block';
+      if (details.style.maxHeight && details.style.maxHeight !== '0px') {
+        details.style.maxHeight = '0px';
+        details.style.opacity = '0';
+      } else {
+        details.style.maxHeight = details.scrollHeight + 'px';
+        details.style.opacity = '1';
+      }
     });
+    // Początkowo ukryte
+    const details = div.querySelector('.details');
+    details.style.maxHeight = '0px';
+    details.style.overflow = 'hidden';
+    details.style.transition = 'max-height 0.25s ease, opacity 0.25s ease';
+    details.style.opacity = '0';
     bookList.appendChild(div);
   });
 }
