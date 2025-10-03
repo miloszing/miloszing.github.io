@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Wiedźmin: Ostatnie życzenie",
+    "author": "Andrzej Sapkowski",
+    "year": 1993,
+    "tags": ["fantasy", "polska"],
+    "read_date": "2018-07-15",
+    "characters": ["Geralt", "Yennefer", "Jaskier"],
+    "description": "Zbiór opowiadań o wiedźminie Geralcie.",
+    "notes": "Ulubiona książka fantasy."
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "year": 1965,
+    "tags": ["sci-fi", "klasyka"],
+    "read_date": "2020-02-10",
+    "characters": ["Paul Atreides", "Lady Jessica"],
+    "description": "Opowieść o planecie Arrakis i walce o przyprawę.",
+    "notes": "Epicka, polityczna, głęboka."
+  },
+  {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "year": 2011,
+    "tags": ["biografia", "technologia"],
+    "read_date": "2021-06-01",
+    "characters": ["Steve Jobs"],
+    "description": "Biografia założyciela Apple.",
+    "notes": "Inspirująca historia o pasji i wizji."
+  }
+]
